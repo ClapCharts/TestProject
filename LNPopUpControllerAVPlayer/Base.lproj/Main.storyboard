@@ -119,12 +119,21 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8G-KI-5T1">
+                                <rect key="frame" x="251" y="368" width="99" height="30"/>
+                                <state key="normal" title="Activate Timer"/>
+                                <connections>
+                                    <action selector="startTimerButtonPressed:" destination="hG8-oQ-lrr" eventType="touchUpInside" id="f1R-rG-cce"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="oPK-yr-9yz" firstAttribute="leading" secondItem="Vsj-kJ-0vt" secondAttribute="leadingMargin" id="0Kp-BE-P1T"/>
+                            <constraint firstItem="h8G-KI-5T1" firstAttribute="centerX" secondItem="kmj-gF-uFG" secondAttribute="centerX" id="3hq-Mh-PX0"/>
                             <constraint firstItem="kmj-gF-uFG" firstAttribute="centerX" secondItem="Vsj-kJ-0vt" secondAttribute="centerX" id="7wA-5g-ekZ"/>
                             <constraint firstItem="Gdg-c3-Sbu" firstAttribute="centerX" secondItem="kmj-gF-uFG" secondAttribute="centerX" id="90e-cf-gK6"/>
+                            <constraint firstItem="h8G-KI-5T1" firstAttribute="top" secondItem="kmj-gF-uFG" secondAttribute="bottom" constant="53" id="9bJ-8T-rFp"/>
                             <constraint firstItem="oPK-yr-9yz" firstAttribute="top" secondItem="5wm-9X-2B0" secondAttribute="bottom" id="KVP-ye-CP0"/>
                             <constraint firstItem="Gdg-c3-Sbu" firstAttribute="top" secondItem="kmj-gF-uFG" secondAttribute="bottom" constant="31" id="NFg-Cs-sua"/>
                             <constraint firstItem="kmj-gF-uFG" firstAttribute="centerY" secondItem="Vsj-kJ-0vt" secondAttribute="centerY" id="gRq-E9-tSH"/>

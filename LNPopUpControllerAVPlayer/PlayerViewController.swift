@@ -49,12 +49,21 @@ class PlayerViewController: UIViewController {
             player = AVPlayer(URL: url)
             player.play()
         
-            timeObserver = player.addPeriodicTimeObserverForInterval(CMTimeMakeWithSeconds(1, 1), queue: nil, usingBlock: { (elapsedTime: CMTime) -> Void in
-                
-                self.updateTimer(elapsedTime)
-            })
+            
         }
     }
+    
+    @IBAction func startTimerButtonPressed(sender: UIButton) {
+        
+        timeObserver = player.addPeriodicTimeObserverForInterval(CMTimeMakeWithSeconds(1, 1), queue: nil, usingBlock: { (elapsedTime: CMTime) -> Void in
+            
+            self.updateTimer(elapsedTime)
+        })
+        
+    }
+    
+    
+    
     
     private func updateTimer(elapsedTime: CMTime) {
         

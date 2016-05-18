@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7719EA9D1CEC684E004BB6C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719EA9C1CEC684E004BB6C3 /* AppDelegate.swift */; };
+		7719EA9F1CEC684E004BB6C3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719EA9E1CEC684E004BB6C3 /* FirstViewController.swift */; };
+		7719EAA11CEC684E004BB6C3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719EAA01CEC684E004BB6C3 /* SecondViewController.swift */; };
+		7719EAA41CEC684E004BB6C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7719EAA21CEC684E004BB6C3 /* Main.storyboard */; };
+		7719EAA61CEC684E004BB6C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7719EAA51CEC684E004BB6C3 /* Assets.xcassets */; };
+		7719EAA91CEC684E004BB6C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7719EAA71CEC684E004BB6C3 /* LaunchScreen.storyboard */; };
+		7719EAB41CEC684E004BB6C3 /* LNPopUpControllerAVPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719EAB31CEC684E004BB6C3 /* LNPopUpControllerAVPlayerTests.swift */; };
+		7719EABF1CEC684E004BB6C3 /* LNPopUpControllerAVPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719EABE1CEC684E004BB6C3 /* LNPopUpControllerAVPlayerUITests.swift */; };
+		7719EAD21CEC6901004BB6C3 /* LNPopupController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7719EAD11CEC68F6004BB6C3 /* LNPopupController.framework */; };
+		7719EAD31CEC6901004BB6C3 /* LNPopupController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7719EAD11CEC68F6004BB6C3 /* LNPopupController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7719EADC1CEC69FC004BB6C3 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719EADB1CEC69FC004BB6C3 /* PlayerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7719EAB01CEC684E004BB6C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7719EA911CEC684E004BB6C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7719EA981CEC684E004BB6C3;
+			remoteInfo = LNPopUpControllerAVPlayer;
+		};
+		7719EABB1CEC684E004BB6C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7719EA911CEC684E004BB6C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7719EA981CEC684E004BB6C3;
+			remoteInfo = LNPopUpControllerAVPlayer;
+		};
+		7719EAD01CEC68F6004BB6C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7719EACC1CEC68F6004BB6C3 /* LNPopupController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 39DB52E51B5823330061C589;
+			remoteInfo = LNPopupController;
+		};
+		7719EAD41CEC6901004BB6C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7719EACC1CEC68F6004BB6C3 /* LNPopupController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DB52E41B5823330061C589;
+			remoteInfo = LNPopupController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7719EAD61CEC6901004BB6C3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7719EAD31CEC6901004BB6C3 /* LNPopupController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7719EA991CEC684E004BB6C3 /* LNPopUpControllerAVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNPopUpControllerAVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7719EA9C1CEC684E004BB6C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7719EA9E1CEC684E004BB6C3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		7719EAA01CEC684E004BB6C3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7719EAA31CEC684E004BB6C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7719EAA51CEC684E004BB6C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7719EAA81CEC684E004BB6C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7719EAAA1CEC684E004BB6C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7719EAAF1CEC684E004BB6C3 /* LNPopUpControllerAVPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LNPopUpControllerAVPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7719EAB31CEC684E004BB6C3 /* LNPopUpControllerAVPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LNPopUpControllerAVPlayerTests.swift; sourceTree = "<group>"; };
+		7719EAB51CEC684E004BB6C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7719EABA1CEC684E004BB6C3 /* LNPopUpControllerAVPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LNPopUpControllerAVPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7719EABE1CEC684E004BB6C3 /* LNPopUpControllerAVPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LNPopUpControllerAVPlayerUITests.swift; sourceTree = "<group>"; };
+		7719EAC01CEC684E004BB6C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7719EACC1CEC68F6004BB6C3 /* LNPopupController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LNPopupController.xcodeproj; path = "LNPopupController-master/LNPopupController/LNPopupController.xcodeproj"; sourceTree = "<group>"; };
+		7719EADB1CEC69FC004BB6C3 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7719EA961CEC684E004BB6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7719EAD21CEC6901004BB6C3 /* LNPopupController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7719EAAC1CEC684E004BB6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7719EAB71CEC684E004BB6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7719EA901CEC684E004BB6C3 = {
+			isa = PBXGroup;
+			children = (
+				7719EACC1CEC68F6004BB6C3 /* LNPopupController.xcodeproj */,
+				7719EA9B1CEC684E004BB6C3 /* LNPopUpControllerAVPlayer */,
+				7719EAB21CEC684E004BB6C3 /* LNPopUpControllerAVPlayerTests */,
+				7719EABD1CEC684E004BB6C3 /* LNPopUpControllerAVPlayerUITests */,
+				7719EA9A1CEC684E004BB6C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7719EA9A1CEC684E004BB6C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7719EA991CEC684E004BB6C3 /* LNPopUpControllerAVPlayer.app */,
+				7719EAAF1CEC684E004BB6C3 /* LNPopUpControllerAVPlayerTests.xctest */,
+				7719EABA1CEC684E004BB6C3 /* LNPopUpControllerAVPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7719EA9B1CEC684E004BB6C3 /* LNPopUpControllerAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				7719EA9C1CEC684E004BB6C3 /* AppDelegate.swift */,
+				7719EA9E1CEC684E004BB6C3 /* FirstViewController.swift */,
+				7719EAA01CEC684E004BB6C3 /* SecondViewController.swift */,
+				7719EADB1CEC69FC004BB6C3 /* PlayerViewController.swift */,
+				7719EAA21CEC684E004BB6C3 /* Main.storyboard */,
+				7719EAA51CEC684E004BB6C3 /* Assets.xcassets */,
+				7719EAA71CEC684E004BB6C3 /* LaunchScreen.storyboard */,
+				7719EAAA1CEC684E004BB6C3 /* Info.plist */,
+			);
+			path = LNPopUpControllerAVPlayer;
+			sourceTree = "<group>";
+		};
+		7719EAB21CEC684E004BB6C3 /* LNPopUpControllerAVPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7719EAB31CEC684E004BB6C3 /* LNPopUpControllerAVPlayerTests.swift */,
+				7719EAB51CEC684E004BB6C3 /* Info.plist */,
+			);
+			path = LNPopUpControllerAVPlayerTests;
+			sourceTree = "<group>";
+		};
+		7719EABD1CEC684E004BB6C3 /* LNPopUpControllerAVPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7719EABE1CEC684E004BB6C3 /* LNPopUpControllerAVPlayerUITests.swift */,
+				7719EAC01CEC684E004BB6C3 /* Info.plist */,
+			);
+			path = LNPopUpControllerAVPlayerUITests;
+			sourceTree = "<group>";
+		};
+		7719EACD1CEC68F6004BB6C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7719EAD11CEC68F6004BB6C3 /* LNPopupController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7719EA981CEC684E004BB6C3 /* LNPopUpControllerAVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7719EAC31CEC684E004BB6C3 /* Build configuration list for PBXNativeTarget "LNPopUpControllerAVPlayer" */;
+			buildPhases = (
+				7719EA951CEC684E004BB6C3 /* Sources */,
+				7719EA961CEC684E004BB6C3 /* Frameworks */,
+				7719EA971CEC684E004BB6C3 /* Resources */,
+				7719EAD61CEC6901004BB6C3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7719EAD51CEC6901004BB6C3 /* PBXTargetDependency */,
+			);
+			name = LNPopUpControllerAVPlayer;
+			productName = LNPopUpControllerAVPlayer;
+			productReference = 7719EA991CEC684E004BB6C3 /* LNPopUpControllerAVPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7719EAAE1CEC684E004BB6C3 /* LNPopUpControllerAVPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7719EAC61CEC684E004BB6C3 /* Build configuration list for PBXNativeTarget "LNPopUpControllerAVPlayerTests" */;
+			buildPhases = (
+				7719EAAB1CEC684E004BB6C3 /* Sources */,
+				7719EAAC1CEC684E004BB6C3 /* Frameworks */,
+				7719EAAD1CEC684E004BB6C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7719EAB11CEC684E004BB6C3 /* PBXTargetDependency */,
+			);
+			name = LNPopUpControllerAVPlayerTests;
+			productName = LNPopUpControllerAVPlayerTests;
+			productReference = 7719EAAF1CEC684E004BB6C3 /* LNPopUpControllerAVPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7719EAB91CEC684E004BB6C3 /* LNPopUpControllerAVPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7719EAC91CEC684E004BB6C3 /* Build configuration list for PBXNativeTarget "LNPopUpControllerAVPlayerUITests" */;
+			buildPhases = (
+				7719EAB61CEC684E004BB6C3 /* Sources */,
+				7719EAB71CEC684E004BB6C3 /* Frameworks */,
+				7719EAB81CEC684E004BB6C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7719EABC1CEC684E004BB6C3 /* PBXTargetDependency */,
+			);
+			name = LNPopUpControllerAVPlayerUITests;
+			productName = LNPopUpControllerAVPlayerUITests;
+			productReference = 7719EABA1CEC684E004BB6C3 /* LNPopUpControllerAVPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7719EA911CEC684E004BB6C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ClapCharts;
+				TargetAttributes = {
+					7719EA981CEC684E004BB6C3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7719EAAE1CEC684E004BB6C3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7719EA981CEC684E004BB6C3;
+					};
+					7719EAB91CEC684E004BB6C3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7719EA981CEC684E004BB6C3;
+					};
+				};
+			};
+			buildConfigurationList = 7719EA941CEC684E004BB6C3 /* Build configuration list for PBXProject "LNPopUpControllerAVPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7719EA901CEC684E004BB6C3;
+			productRefGroup = 7719EA9A1CEC684E004BB6C3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7719EACD1CEC68F6004BB6C3 /* Products */;
+					ProjectRef = 7719EACC1CEC68F6004BB6C3 /* LNPopupController.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7719EA981CEC684E004BB6C3 /* LNPopUpControllerAVPlayer */,
+				7719EAAE1CEC684E004BB6C3 /* LNPopUpControllerAVPlayerTests */,
+				7719EAB91CEC684E004BB6C3 /* LNPopUpControllerAVPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7719EAD11CEC68F6004BB6C3 /* LNPopupController.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LNPopupController.framework;
+			remoteRef = 7719EAD01CEC68F6004BB6C3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7719EA971CEC684E004BB6C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7719EAA91CEC684E004BB6C3 /* LaunchScreen.storyboard in Resources */,
+				7719EAA61CEC684E004BB6C3 /* Assets.xcassets in Resources */,
+				7719EAA41CEC684E004BB6C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7719EAAD1CEC684E004BB6C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7719EAB81CEC684E004BB6C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7719EA951CEC684E004BB6C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7719EAA11CEC684E004BB6C3 /* SecondViewController.swift in Sources */,
+				7719EADC1CEC69FC004BB6C3 /* PlayerViewController.swift in Sources */,
+				7719EA9D1CEC684E004BB6C3 /* AppDelegate.swift in Sources */,
+				7719EA9F1CEC684E004BB6C3 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7719EAAB1CEC684E004BB6C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7719EAB41CEC684E004BB6C3 /* LNPopUpControllerAVPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7719EAB61CEC684E004BB6C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7719EABF1CEC684E004BB6C3 /* LNPopUpControllerAVPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7719EAB11CEC684E004BB6C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7719EA981CEC684E004BB6C3 /* LNPopUpControllerAVPlayer */;
+			targetProxy = 7719EAB01CEC684E004BB6C3 /* PBXContainerItemProxy */;
+		};
+		7719EABC1CEC684E004BB6C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7719EA981CEC684E004BB6C3 /* LNPopUpControllerAVPlayer */;
+			targetProxy = 7719EABB1CEC684E004BB6C3 /* PBXContainerItemProxy */;
+		};
+		7719EAD51CEC6901004BB6C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LNPopupController;
+			targetProxy = 7719EAD41CEC6901004BB6C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7719EAA21CEC684E004BB6C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7719EAA31CEC684E004BB6C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7719EAA71CEC684E004BB6C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7719EAA81CEC684E004BB6C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7719EAC11CEC684E004BB6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7719EAC21CEC684E004BB6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7719EAC41CEC684E004BB6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LNPopUpControllerAVPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clapcharts.com.LNPopUpControllerAVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7719EAC51CEC684E004BB6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LNPopUpControllerAVPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clapcharts.com.LNPopUpControllerAVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7719EAC71CEC684E004BB6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LNPopUpControllerAVPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clapcharts.com.LNPopUpControllerAVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LNPopUpControllerAVPlayer.app/LNPopUpControllerAVPlayer";
+			};
+			name = Debug;
+		};
+		7719EAC81CEC684E004BB6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LNPopUpControllerAVPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clapcharts.com.LNPopUpControllerAVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LNPopUpControllerAVPlayer.app/LNPopUpControllerAVPlayer";
+			};
+			name = Release;
+		};
+		7719EACA1CEC684E004BB6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LNPopUpControllerAVPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clapcharts.com.LNPopUpControllerAVPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LNPopUpControllerAVPlayer;
+			};
+			name = Debug;
+		};
+		7719EACB1CEC684E004BB6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LNPopUpControllerAVPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clapcharts.com.LNPopUpControllerAVPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LNPopUpControllerAVPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7719EA941CEC684E004BB6C3 /* Build configuration list for PBXProject "LNPopUpControllerAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7719EAC11CEC684E004BB6C3 /* Debug */,
+				7719EAC21CEC684E004BB6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7719EAC31CEC684E004BB6C3 /* Build configuration list for PBXNativeTarget "LNPopUpControllerAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7719EAC41CEC684E004BB6C3 /* Debug */,
+				7719EAC51CEC684E004BB6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7719EAC61CEC684E004BB6C3 /* Build configuration list for PBXNativeTarget "LNPopUpControllerAVPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7719EAC71CEC684E004BB6C3 /* Debug */,
+				7719EAC81CEC684E004BB6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7719EAC91CEC684E004BB6C3 /* Build configuration list for PBXNativeTarget "LNPopUpControllerAVPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7719EACA1CEC684E004BB6C3 /* Debug */,
+				7719EACB1CEC684E004BB6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7719EA911CEC684E004BB6C3 /* Project object */;
+}

@@ -556,6 +556,7 @@
 				7719EAC51CEC684E004BB6C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7719EAC61CEC684E004BB6C3 /* Build configuration list for PBXNativeTarget "LNPopUpControllerAVPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +565,7 @@
 				7719EAC81CEC684E004BB6C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7719EAC91CEC684E004BB6C3 /* Build configuration list for PBXNativeTarget "LNPopUpControllerAVPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +574,7 @@
 				7719EACB1CEC684E004BB6C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

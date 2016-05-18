@@ -12,7 +12,10 @@ import AVFoundation
 
 class PlayerViewController: UIViewController {
 
-    var player = AVPlayer?()
+    var player = AVPlayer()
+    var timeObserver: AnyObject!
+
+    @IBOutlet weak var timer: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,7 +47,21 @@ class PlayerViewController: UIViewController {
     @IBAction func playButtonPressed(sender: UIButton) {
         if let url = NSURL(string: "http://clapcharts.com/track/Love.mp3") {
             player = AVPlayer(URL: url)
-            player?.play()
+            player.play()
+        
+            timeObserver = player.addPeriodicTimeObserverForInterval(CMTimeMakeWithSeconds(1, 1), queue: nil, usingBlock: { (elapsedTime: CMTime) -> Void in
+                
+                self.updateTimer(elapsedTime)
+            })
+        }
+    }
+    
+    private func updateTimer(elapsedTime: CMTime) {
+        
+        let duration = CMTimeGetSeconds(player.currentItem!.duration);
+        if (isfinite(duration)) {
+            let elapsedTime = CMTimeGetSeconds(elapsedTime)
+            timer.text = String(format: "%d:%02d", (lround(elapsedTime) / 60), lround(elapsedTime) % 60)
         }
     }
     

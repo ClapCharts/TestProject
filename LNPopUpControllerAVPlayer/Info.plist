@@ -53,9 +53,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>App Transport Security SettingsApp Transport Security Settings</key>
+	<key>NSAppTransportSecurity</key>
 	<dict>
-		<key>Exception Domains</key>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+		<key>NSExceptionDomains</key>
 		<dict>
 			<key>clapcharts.com</key>
 			<dict>
@@ -63,6 +65,8 @@
 				<true/>
 				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
+				<key>NSTemporaryExceptionMinimumTLSVersion</key>
+				<string>TLSv1.1</string>
 			</dict>
 		</dict>
 	</dict>
